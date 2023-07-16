@@ -1,0 +1,26 @@
+.resultRow {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    min-height: 128px;
+}
+
+
+.title {
+    width: 206px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 128px;
+    height: 100%;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    flex-wrap: wrap;
+}

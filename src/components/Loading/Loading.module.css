@@ -1,0 +1,7 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%
+}

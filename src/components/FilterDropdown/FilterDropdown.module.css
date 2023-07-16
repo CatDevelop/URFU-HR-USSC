@@ -1,0 +1,44 @@
+.dropdown {
+    /*min-width: 394px;*/
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 50px;
+}
+
+.title {
+    position: relative;
+    text-align: left;
+    margin-bottom: 4px;
+    font-family: OpenSans, serif;
+    color: #818284;
+    font-size: 16px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*align-items: start;*/
+    gap: 10px
+}
+
+.valueContainer {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.valueCount {
+    border-radius: 10px;
+    background-color: #B5B2B2;
+    color: white;
+    min-width: 22px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}

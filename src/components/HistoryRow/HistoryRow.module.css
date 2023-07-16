@@ -1,0 +1,71 @@
+.historyRowContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    max-width: 732px;
+    width: 100%;
+    gap: 6px;
+}
+
+.historyTitleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    max-width: 732px;
+    width: 100%;
+    gap: 10px;
+    cursor: default;
+}
+
+.withComment {
+    cursor: pointer;
+}
+
+.withComment:hover {
+    color: #F99D1D;
+}
+
+.withComment:hover path {
+    fill: #F99D1D;
+}
+
+.historyCommentContainer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #565A5A;
+    word-wrap: break-word;
+    max-width: 732px;
+}
+
+.divider {
+    border-top: 1px solid #B5B2B2;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.historyTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.historyTitleUser {
+    background: rgb(181, 178, 178);
+    padding: 0px 10px;
+    border-radius: 12px;
+    color: rgba(249, 157, 29, 1);
+    color: white;
+}

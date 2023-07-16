@@ -1,0 +1,84 @@
+.resultModal {
+    display: flex;
+    min-width: 420px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.taskInformationTable {
+    max-width: 632px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.taskInformationTableRow {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.taskInformationTableTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #818284;
+    width: 192px;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.taskRow {
+    cursor: pointer;
+}
+
+.taskRow:hover {
+    color: rgba(249, 157, 29, 1);
+    text-decoration: underline;
+    text-decoration-color: rgba(249, 157, 29, 1);
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+    white-space: pre-line;
+    width: 206px;
+    min-height: 128px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

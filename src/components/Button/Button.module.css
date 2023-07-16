@@ -1,0 +1,58 @@
+.button {
+    font-family: OpenSans, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    border-radius: 10px;
+    transition: all 250ms ease 0s;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0px 32px;
+    background-color: #F99D1D;
+    border: 2px solid transparent;
+    color: white;
+    box-sizing: content-box;
+
+    height: 48px;
+}
+
+.button:hover {
+    cursor:pointer;
+    background-color: white;
+    border: 2px solid #F99D1D;
+    color: #F99D1D;
+}
+
+.button:active {
+    /*background-color: #F99D1D;*/
+}
+
+
+.secondButton {
+    font-family: OpenSans, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    border-radius: 10px;
+    transition: all 250ms ease 0s;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0px 32px;
+    background-color: #B5B2B2;
+    border: 2px solid transparent;
+    color: white;
+    box-sizing: content-box;
+
+    height: 48px;
+}
+
+.secondButton:hover {
+    cursor:pointer;
+    background-color: white;
+    border: 2px solid #B5B2B2;
+    color: #B5B2B2;
+}
+
+.secondButton:active {
+    /*background-color: #F99D1D;*/
+}

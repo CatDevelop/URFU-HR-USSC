@@ -1,0 +1,22 @@
+.tableCell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 52px;
+
+    padding: 6px 16px;
+    /*padding-bottom: max(16px, 5%);*/
+    /*padding-top: max(16px, 5%);*/
+    /*padding-left: max(16px, 5%);*/
+    /*padding-right: max(16px, 5%);*/
+}
+
+.left {
+    justify-content: start;
+}
+.center {
+    justify-content: center;
+}
+.right {
+    justify-content: end;
+}

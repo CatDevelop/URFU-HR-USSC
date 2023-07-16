@@ -1,0 +1,27 @@
+.tag {
+    border-radius: 10px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+
+    border: 2px solid;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.text {
+    padding: 4px 8px;
+    font-family: SFPro, serif;
+    font-size: 14px;
+    color: rgba(3, 3, 3, 1);
+    font-weight: 500;
+    line-height: 12px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    border-color: #000000;
+}

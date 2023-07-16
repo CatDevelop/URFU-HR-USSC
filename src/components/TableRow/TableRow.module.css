@@ -1,0 +1,61 @@
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tableRow {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #B5B2B2;
+    cursor: pointer;
+    max-width: 1272px;
+    animation: show 0.5s ease-in-out;
+}
+
+.tableRowHeader {
+    border-bottom: 2px solid #B5B2B2;
+    cursor:default;
+}
+
+.tableRow:hover {
+    border-bottom: 1px solid #F99D1D;
+}
+
+.tableRowHeader:hover {
+    border-bottom: 2px solid #B5B2B2;
+}
+
+.header {
+    /*font-family: 'Roboto', serif;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.copyLink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.17px;
+    color: rgba(2, 136, 209, 0.65);
+}
+
+.cross:hover path {
+    fill: #F99D1D;
+}
+

@@ -1,0 +1,30 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 750px;
+    margin: 150px auto auto;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #000000;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}

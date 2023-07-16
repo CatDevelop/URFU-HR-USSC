@@ -1,0 +1,160 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    /*border-bottom: 1px solid #CACACA;*/
+    /*height: 60px;*/
+    white-space: nowrap;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1272px;
+    margin: auto;
+    height: 100%;
+}
+
+.nav_logo {
+    /*width: 332px;*/
+}
+
+.nav_logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    height: 60px;
+    cursor: default;
+}
+.nav_logo .logo_image {
+    align-items: center;
+}
+.nav_logo .logo_cross {
+    height: 60px;
+    width: 19px;
+}
+.nav_logo .udv_logo {
+    width: 125px;
+    padding-right: 20px;
+}
+
+.nav {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+
+}
+
+.nav:last-child {
+    padding-right: 20px;
+}
+
+.nav_item {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-family: OpenSans, serif;
+    transition: color 200ms;
+    border-bottom: 2px transparent solid;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_item:hover {
+    color: #f59d0e;
+    transition: color 200ms;
+    border-bottom: 2px #f59d0e solid;
+}
+
+.nav_item1 {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+    cursor: default;
+    letter-spacing: 0.5px;
+    font-family: OpenSans, serif;
+    transition: color 200ms;
+    border-bottom: 2px transparent solid;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_item1:hover {
+    /*color: #f59d0e;*/
+    /*transition: color 200ms;*/
+}
+
+.sep {
+    width: 0;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.nav_auth {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerContainer {
+    width: 100%;
+    border-bottom: 1px solid #CACACA;
+}
+.secondHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 1272px;
+    height: 60px;
+    margin: auto;
+    align-content: center;
+
+
+}
+
+.secondHeader a {
+    color: #565A5A;
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(1px);
+}
+
+.active {
+    border-bottom: 1px solid #f59d0e;
+    color: #f59d0e !important;
+}
+
+.secondHeaderLink {
+
+}
+
+.gear {
+    height: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.gear:hover path {
+    fill: #F99D1D;
+}

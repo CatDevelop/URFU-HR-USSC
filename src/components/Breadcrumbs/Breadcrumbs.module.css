@@ -1,0 +1,50 @@
+.breadcrumbs {
+    /*font-family: SFPro, serif;*/
+    /*font-family: SFPro, serif;*/
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items:center;
+    max-width: 1272px;
+    margin: 25px 0;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 5px;
+}
+
+.breadcrumbsLink {
+    /*color:#ff63c3;*/
+    color: #818284;
+}
+
+.breadcrumbsLink:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    /*color:#ff63c3;*/
+    text-decoration-thickness: 0.5px;
+}
+
+.breadcrumbsLink:visited{
+    color: #818284;
+}
+
+.breadcrumbsIcon{
+    max-width: 16px;
+    color: white;
+}
+
+.breadcrumbs h3 {
+    font-family: SFPro, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.year {
+    background-color: rgba(226, 232, 240, 0.16);
+    border-radius: 5px;
+    padding: 0 3px;
+    font-size: 12px;
+    font-weight: 400;
+}

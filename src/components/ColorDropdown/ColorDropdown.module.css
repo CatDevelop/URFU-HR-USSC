@@ -1,0 +1,72 @@
+.dropdown {
+    /*min-width: 394px;*/
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.title {
+    position: relative;
+    text-align: left;
+    margin-bottom: 4px;
+    font-family: OpenSans, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    /*align-items: start;*/
+    gap: 10px
+}
+
+.picker {
+    display: block !important;
+    height: 90px;
+}
+
+.colorViewerContainer {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: white;
+    border: 1px solid rgba(129, 130, 132, 0.8);
+    /*box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 12px;*/
+    border-radius: 4px;
+    position: relative;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.color {
+    background: rgb(242, 127, 111);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    outline: none;
+}
+
+.colorViewer {
+    width: 25px;
+    height: 25px;
+    font-size: 0px;
+}

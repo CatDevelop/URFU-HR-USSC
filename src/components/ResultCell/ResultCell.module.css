@@ -1,0 +1,23 @@
+.resultCell {
+    width: 206px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 128px;
+    padding: 10px 15px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0;
+    color: rgba(0, 0, 0, 0.87);
+
+    cursor: pointer;
+
+    white-space: pre-line;
+}

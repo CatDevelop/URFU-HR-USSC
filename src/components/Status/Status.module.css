@@ -1,0 +1,86 @@
+.tag {
+    border-radius: 10px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+
+    border: 2px solid;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.text {
+    padding: 4px 8px;
+    font-family: SFPro, serif;
+    font-size: 14px;
+    color: rgba(3, 3, 3, 1);
+    font-weight: 500;
+    line-height: 12px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.OnChecking svg,
+.OnChecking {
+    border-color: #F8A34D;
+    fill: #F8A34D;
+}
+
+.OnRework svg,
+.OnRework {
+    border-color: #575DF9;
+    fill: #575DF9;
+}
+
+.InWork svg,
+.InWork {
+    border-color: #488EF7;
+    fill: #575DF9;
+}
+
+.AwaitingCancellation svg,
+.AwaitingCancellation {
+    border-color: #F8DD4D;
+    fill: #F8DD4D;
+}
+
+.Canceled svg,
+.Canceled {
+    border-color: #F96057;
+    fill: #F96057;
+}
+
+.CompletionCheck svg,
+.CompletionCheck {
+    border-color: #B470D4;
+    fill: #B470D4;
+}
+
+.Completed svg,
+.Completed {
+    border-color: #5FCF65;
+    fill: #5FCF65;
+}
+
+.Wait svg,
+.Wait {
+    border-color: #F8A34D;
+    fill: #F8A34D;
+}
+
+.NotWorking svg,
+.NotWorking {
+    border-color: #F96057;
+    fill: #F96057;
+}
+
+.Registr svg,
+.Registr {
+    border-color: #5FCF65;
+    fill: #5FCF65;
+}

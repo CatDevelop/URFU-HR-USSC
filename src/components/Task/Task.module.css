@@ -1,0 +1,142 @@
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.taskInformationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.taskInformationTopContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.taskInformationTopContainerTags {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.taskInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.taskAction {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #F99D1D;
+}
+
+.taskCanceled {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #F96057;
+}
+
+.taskInformationLeftContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.taskInformationTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.taskResultTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 30px;
+    /*margin-top: 30px;*/
+}
+
+.taskInformationTable {
+    max-width: 632px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.taskInformationTableRow {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.taskInformationTableTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #818284;
+    width: 192px;
+}
+
+.taskInformationRightContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 186px;
+}
+
+.taskInformationPlannedWeightTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.taskInformationPlannedWeight {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.taskResultPlannedWeight {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

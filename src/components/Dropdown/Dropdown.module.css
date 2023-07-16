@@ -1,0 +1,15 @@
+.dropdown {
+    /*min-width: 394px;*/
+    min-height: 50px;
+}
+
+.title {
+    position: relative;
+    text-align: left;
+    margin-bottom: 9px;
+    font-family: OpenSans, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}

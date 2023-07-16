@@ -1,0 +1,124 @@
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.workersPageFilters,
+.myTaskPageFilters,
+.resultsPageFilters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: end;
+}
+
+.resultsPageFilters {
+    margin-top: 40px;
+}
+
+.InvitationsPageTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 1272px;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.serviceButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    animation: show 0.5s ease-in-out;
+}
+
+
+.resultsTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.titleContainer h1,
+.resultsTitle h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.createResultTasks,
+.createResultFilters {
+    margin-bottom: 25px;
+}
+
+.createResultForm {
+    margin-top: 25px;
+}
+
+.resultsPageDownload {
+    padding: 3px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #818284;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    border-bottom: 1px solid transparent;
+
+    cursor: pointer;
+}
+
+.resultsPageDownload:hover {
+    border-bottom: 1px solid #818284;
+}
+
+.resultsPageButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.resultsPageRows {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.allTasksPageButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

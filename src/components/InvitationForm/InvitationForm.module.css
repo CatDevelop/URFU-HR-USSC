@@ -1,0 +1,56 @@
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.invitationForm {
+    max-width: 1272px;
+    margin: 0 auto auto auto;
+}
+
+.header {
+    font-family: OpenSans, serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    text-align: center;
+
+    cursor:default;
+
+    /*padding: 0 0 60px 0;*/
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    gap: 24px;
+    /*align-items: center;*/
+    /*max-width: 434px;*/
+    /*background-color: rgba(195, 195, 195, 0.04);;*/
+    /*border-radius: 15px;*/
+    padding: 0 20px;
+    /*margin: 100px auto auto;*/
+
+    animation: show 0.5s ease-in-out;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.button {
+   display: flex;
+    justify-content: center;
+}
+
+
+
